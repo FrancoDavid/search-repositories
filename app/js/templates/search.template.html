@@ -7,8 +7,8 @@
         ng-model="searchValue"
         ng-change="searchingRepo()">
 
-    <div ng-repeat="repo in repositories">
-        <grid-repo repo="repo"></grid-repo>
+    <div ng-repeat="repo in repositories" class="grid-item">
+        <grid-repo repo="repo" class="fade-in"></grid-repo>
     </div>
 
 </div>

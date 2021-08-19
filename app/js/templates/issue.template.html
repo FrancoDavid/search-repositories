@@ -2,7 +2,7 @@
     <span class="text-white d-inline-block"><i class="fas fa-arrow-circle-left fa-2x" ng-click="goBack()"></i></span>
     <h4 class="text-white d-inline-block ml-2">  Issues Repository: {{repository}}</h4>
     
-    <div ng-repeat="issue in issues">
+    <div ng-repeat="issue in issues" class="grid-item">
         <grid-issue issue="issue"></grid-issue>
     </div>
 </div>
