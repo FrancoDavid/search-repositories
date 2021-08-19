@@ -1,0 +1,10 @@
+<div class="box">
+    <i class="fas fa-arrow-circle-left" ng-click="goBack()"></i>
+    <h6>Stats of repository forks similar to {{repository}}</h6>
+
+    <div>
+        <canvas ng-animate="cssFade" id="line" class="chart chart-line cssFade animation-hide" chart-data="dataStats" chart-labels="labelStats" height="100"></canvas>
+    </div>
+
+
+</div>
