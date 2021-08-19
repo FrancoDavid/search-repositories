@@ -1,0 +1,7 @@
+<div class="box">
+    <i class="fas fa-arrow-circle-left" ng-click="goBack()"></i>
+    <h6>Issues Repo: {{repository}}</h6>
+    <div ng-repeat="issue in issues">
+        <grid-issue issue="issue"></grid-issue>
+    </div>
+</div>

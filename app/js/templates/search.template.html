@@ -1,0 +1,14 @@
+<div class="box">
+    <input
+        type="text"
+        class="form-control"
+        placeholder="Search"
+        name="search"
+        ng-model="searchValue"
+        ng-change="searchingRepo()">
+
+    <div ng-repeat="repo in repositories">
+        <grid-repo repo="repo"></grid-repo>
+    </div>
+
+</div>

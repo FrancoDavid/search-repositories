@@ -1,0 +1,11 @@
+{
+    "name": "search repositories",
+    "version": "1.0.0",
+    "description": "searching repositories in GITHUB with AngularJS",
+    "dependencies": {
+      "angular": "1.6.9",
+      "angular-resource": "1.6.9",
+      "angular-route": "1.6.9",
+      "components-font-awesome": "^5.9.0"
+    }
+  }

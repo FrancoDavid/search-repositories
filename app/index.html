@@ -1,0 +1,83 @@
+<!--
+	Author: Franco David
+	Author URL: http://francoDavid.github.io
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="app-search-repo">
+<head>
+<title>Search Repos App AngularJS</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	
+	<!-- build:css css/style.min.css -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="style/bootstrap.css">
+	<link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="lib/components-font-awesome/css/all.css" />
+	<!-- endbower -->
+	<!-- endbuild -->
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm text-center">
+				<h1 class="text-muted">Search repositories App</h1>
+			</div>
+		</div>
+	</div>
+    
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div ng-view></div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+</body>
+
+<!-- js-scripts -->
+	<!-- build:js js/vendor.min.js -->
+	<!-- js -->
+	<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.js"></script>
+	<!-- bower:js -->
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular-resource/angular-resource.js"></script>
+	<script src="lib/angular-route/angular-route.js"></script>
+	<!-- endbower -->
+	<!-- inject:js -->
+	<!-- endinject -->
+	<!-- endbuild -->
+	
+	<!-- build:js js/app.min.js -->
+	<script src="js/app.js"></script>
+	<script src="js/app.routes.js"></script>
+	<script src="js/components/gridrepo.directive.js"></script>
+	<script src="js/components/gridissue.directive.js"></script>
+	<script src="js/services/search.service.js"></script>
+	<script src="js/services/issue.service.js"></script>
+	<script src="js/controllers/search.controller.js"></script>
+	<script src="js/controllers/issue.controller.js"></script>
+
+
+	<!-- <script src="js/directives/directives.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/services/login.service.js"></script>
+	<script src="js/controllers/main.controller.js"></script>
+	<script src="js/controllers/metodologia.controller.js"></script>
+	<script src="js/controllers/riesgoAmbiental.controller.js"></script>
+	<script src="js/controllers/monitoreo.controller.js"></script>
+	<script src="js/controllers/trumao.controller.js"></script>
+	<script src="js/controllers/granitico.controller.js"></script>
+	<script src="js/controllers/login.controller.js"></script> -->
+	<!-- endbuild -->
+    <!-- //js -->
+</html>
